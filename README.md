@@ -7,4 +7,4 @@ Un site vitrine fictif pour un restaurant à Bamako.
 - Formulaire de contact
 
 ## Auteur
-Satoru Gojo
+Sory Traoré 
