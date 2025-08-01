@@ -1,0 +1,109 @@
+body{
+    position: relative;
+}
+nav{
+    display: flex; align-items:center; justify-content: space-between; width: 100%; background-color: rgba(250, 125, 003, 1);height: 10vh; box-sizing: border-box; padding: 0rem; top: 0px; position: fixed;
+}
+header{
+    height: 15vh;  width: 100%; box-sizing: border-box;padding: 0.7rem; font-family: Arial, Helvetica, sans-serif;
+}
+#img{
+    height: 73vh; width: 100%; margin-top: 2vh;
+}
+img{
+    height: 100%; width: 100%;
+}
+.a{
+    color: black; text-decoration: none; height: 10vh; display: flex; flex: 1; align-items: center;
+    justify-content: center;
+}
+h1{
+    font-weight: 200;
+}
+.a:hover{
+    background-color: rgba(250, 225, 003, 0.4);
+}
+h2{
+    display: inline; font-weight: 200; 
+}
+h3{
+    color: #000;
+}
+#menu{
+
+     background-color:rgba(200, 200, 200, 0.2) ; 
+}
+.enfant{
+    width: 150px;
+}
+section{
+    padding-top: 12vh;
+}
+.meat{
+    height: 150px; width: 150px; object-fit: cover; border-radius: 10%;
+}
+.position{
+    display: flex; align-items: center; justify-content: space-around; width: 100%;
+}
+.plat{
+    display: flex; flex-direction: column; align-items: center; border-left: 0.3rem solid rgba(250, 125, 003, 1); box-shadow: 0.2rem 0.2rem 0.5rem; padding: 0.2rem; height:300px ; width: 250px;     background-color: rgba(250, 225, 003, 0.4); transition: all 1s ease; 
+}
+.plat:hover{
+       background-color: rgba(250, 225, 003, 0.8);
+}
+.title {
+    text-align: center; border-top: 0.3rem solid rgba(250, 125, 003, 1);
+}
+.disposition{
+    display: flex; flex-direction: column; justify-content: space-around;align-items: center ;border-top: 0.3rem solid rgba(250, 125, 003, 1);  border-top: 0.3rem solid rgba(250, 125, 003, 1); padding-top: 4vh;
+}
+#contact{
+    height: 100vh; display: flex;  align-items:center; justify-content: space-around;
+}
+textarea, input {
+    width: 80%; height: 3rem; margin-bottom: 1rem; border-radius: 0.3rem; box-shadow: 0.5rem 0.5rem 0.8rem;
+    border:0.1rem solid rgba(250, 125, 003, 1);
+}
+#part{
+    height: 80%; display: flex; align-items: center;  justify-content: space-around; flex-direction: column;
+    border-left:1rem solid rgba(250, 125, 003, 1);flex: 1;
+    
+}
+#btn{
+    display: flex; flex-direction: column; justify-content: space-between; height: 20%;
+}
+form{
+    display: flex; flex-direction: column; justify-content: space-between;
+}
+#form{
+    flex: 1; height: 80%;
+}
+button {
+    width: 30%; height: 3rem; background-color: rgba(250, 125, 003, 1);  border:0.1rem solid rgba(250, 125, 003, 1); color: aliceblue; cursor: pointer;
+}
+button:hover{
+    color: #000; background-color: rgba(250, 125, 003, 0.5);
+}
+#place{
+    height: 100vh; display: flex; flex-direction: column; align-items: center;
+}
+@media(max-width:765px) {
+    body {
+        font-size: 0.7rem; 
+    }
+    nav{
+         justify-content: space-around;
+    }
+    header{    
+        padding-top: 0vh;
+    }
+    .position{
+        display: grid; grid-template-columns: 1fr ; gap: 0.8rem;
+    }
+    .meat{
+    height: 110px; width: 150px; object-fit: cover; border-radius: 10%;
+}
+    .plat{
+        display: flex; flex-direction: column; align-items: center; border-left: 0.3rem solid rgba(250, 125, 003, 1); box-shadow: 0.2rem 0.2rem 0.5rem; padding: 0.2rem; height:200px ; width:90vw;     background-color: rgba(250, 225, 003, 0.4); transition: all 1s ease; 
+    }
+}
